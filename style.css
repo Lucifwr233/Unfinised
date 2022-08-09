@@ -1,0 +1,44 @@
+.jumbotron {
+  background-color: #04293a;
+  color: #eeeeee;
+  /* background-color: #eeeeee; */
+  padding: 6rem;
+}
+
+#Achievement {
+  background-color: #04293a;
+  padding-bottom: 10px;
+}
+#Achievement h2 {
+  color: #eeeeee;
+}
+
+#about {
+  margin-top: 10%;
+}
+
+img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+footer {
+  padding: 20px;
+  font-family: "Poppins";
+  font-size: 14px;
+  color: white;
+  background-color: #041c32;
+  text-align: center;
+}
+
+.bggambar {
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
